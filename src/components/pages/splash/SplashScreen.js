@@ -9,10 +9,10 @@ const SplashScreen = () => {
     setTimeout(()=>{
       navigate("/onboarding1")
     },4000)
-  },[])
+  })
   return (
     <Splash>
-      <img src='/images/Ellipse 7.png' alt=''/>
+      <img src='/images/Ellipse 7.png' alt='logo'/>
     </Splash>
   );
 }
